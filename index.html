@@ -124,6 +124,7 @@
 
   #hero h1 {
     font-size: clamp(2.6rem, 11vw, 6rem);
+    line-height: 1.12;
     text-shadow: 0 4px 0 rgba(0,0,0,.25), 0 0 40px rgba(175,30,45,.5);
   }
   #hero h1 .blue { color: #aeb8ff; }
@@ -348,9 +349,9 @@
         <textPath href="#nameArc" startOffset="50%">ABBA</textPath>
       </text>
 
-      <!-- big number -->
-      <text x="160" y="276" text-anchor="middle" font-family="Anton, sans-serif"
-            font-size="124" fill="#fff" stroke="var(--habs-blue)" stroke-width="3">1</text>
+      <!-- big number, centered on the stripe bands -->
+      <text x="160" y="178" text-anchor="middle" dominant-baseline="central" font-family="Anton, sans-serif"
+            font-size="120" fill="#fff" stroke="var(--habs-blue)" stroke-width="3">1</text>
     </svg>
   </div>
 
